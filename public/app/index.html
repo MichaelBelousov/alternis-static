@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Alternis Dialogue Editor</title>
+    <meta name="description" content="A visual node graph based editor for crafting dialogues experiences">
+    <meta name="author" content="Michael Belousov">
+    <meta name="keywords" content="Alternis, Dialogue, Editor, Game engines">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--
+    FIXME: need to do this in prod
+    <meta http-equiv="Content-Security-Policy" content="
+      default-src 'self';
+      connect-src 'https://accounts.google.com/gsi/';
+      frame-src 'https://accounts.google.com/gsi/';
+      script-src 'https://accounts.google.com/gsi/client';
+      style-src 'https://accounts.google.com/gsi/style';
+      img-src 'self' github.com
+    ">
+    -->
+    <link rel="icon" type="image/png" href="/app/favicon.ico">
+    <script type="module" crossorigin src="/app/assets/index-2a8d9e93.js"></script>
+    <link rel="stylesheet" href="/app/assets/index-e4571a37.css">
+  </head>
+  <body>
+    <style>
+      :root {
+        --bg-1: #2d2d2d;
+        --bg-2: #323232;
+        --fg-1: #e0e0e0;
+        --fg-hover: #fafafa;
+        --bg-1-hover: #363636;
+        --header-height: 48px;
+        --gap: 6px;
+        --border-radius: 3px; /* half of gap */
+      }
+
+      body, dialog {
+        background-color: var(--bg-1);
+        color: var(--fg-1);
+        font-family: sans-serif;
+      }
+
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      a {
+        color: #af3fa0;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+    </style>
+    <title>Graphlang Test Editor</title>
+    <main id="react-app" style="height:100vh;width:100vw"></main>
+    <div id="context-menu-root"></div>
+  </body>
+  
+  <!-- FIXME: remove for login-less version -->
+  <script id="google-client-script" src="https://accounts.google.com/gsi/client" async onload="window._alt_gclient_loaded = true"></script>
+</html>
+

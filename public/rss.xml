@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Alternis dev blog RSS feed]]></title><description><![CDATA[Alternis dialogue editor]]></description><link>https://alternis.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 28 Oct 2024 16:21:21 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[NOTE: I bypassed the required login by deleting the element https://unity.com/legal/branding-trademarks]]></description><link>https://alternis.io/blog/UnityLicense/</link><guid isPermaLink="false">https://alternis.io/blog/UnityLicense/</guid><content:encoded>&lt;ul&gt;
+&lt;li&gt;NOTE: I bypassed the required login by deleting the element&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://unity.com/legal/branding-trademarks&quot;&gt;https://unity.com/legal/branding-trademarks&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Getting started]]></title><description><![CDATA[I must not burnout. Burnout is the mind-killer. Burnout is the little death that brings total
+obliteration. -- Not Dune Step 1, start…]]></description><link>https://alternis.io/blog/test/</link><guid isPermaLink="false">https://alternis.io/blog/test/</guid><pubDate>Fri, 20 Oct 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;em&gt;I must not burnout. Burnout is the mind-killer. Burnout is the little death that brings total
+obliteration.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;-- &lt;em&gt;Not Dune&lt;/em&gt;&lt;/p&gt;
+&lt;h3&gt;Step 1, start experimenting 2 years ago&lt;/h3&gt;
+&lt;p&gt;I failed a &lt;a href=&quot;https://inthewall.itch.io/stroll-jam-entry&quot;&gt;my first game jam&lt;/a&gt; in February 2021,
+where I (unrelated to said failure) forced our designers to write a dialogue format in &lt;code class=&quot;language-text&quot;&gt;JSON&lt;/code&gt;.
+They took to it alright, but had to run it under my code and go through it to discover if they
+had forgotten a field. I was under too much of a crunch at the time and there wasn&apos;t enough
+dialogue to justify writing (or setting up) a simple JSON schema checker.
+But the day after the jam ended, I wrote a self-contained webpage that they could have used.&lt;/p&gt;
+&lt;p&gt;The next weekend, I created a simplified &lt;a href=&quot;https://example.com/FIXME&quot;&gt;reactflow&lt;/a&gt;-based prototype
+for uploading images, placing script-line nodes that use those character images,
+and connecting them. It was very bare, but I liked the idea.&lt;/p&gt;
+&lt;p&gt;In early 2023 I played with compiling &lt;a href=&quot;/FIXME&quot;&gt;chibi-scheme&lt;/a&gt; to web assembly using &lt;a href=&quot;/FIXME&quot;&gt;zig&lt;/a&gt;,
+which helped me develop the eventual architecture and (tiny) build scripts I would need.&lt;/p&gt;
+&lt;p&gt;In mid 2023, I started working on a larger project, which I copy-pasted the prototype
+reactflow editor into, and refined it. I also set up a backend service and web assembly compilation.
+Then on September 19th, 2023, I started working on a much smaller project which had some feature,
+cross-over, so I copy-pasted my refined prototype into a new repository and got to work...&lt;/p&gt;
+&lt;h3&gt;Step 2, don&apos;t sleep&lt;/h3&gt;
+&lt;p&gt;September 19th, 2023 I posted in a private discord (I should really start microblogging).&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/FIXME&quot; alt=&quot;img&quot;&gt;&lt;/p&gt;
+&lt;p&gt;the following weekend, following the outcry at Unity&apos;s new pricing, I decided I was going to take a break from my larger project to do this much smaller one.&lt;/p&gt;
+&lt;h3&gt;Step 3, sleep a little bit&lt;/h3&gt;
+&lt;h3&gt;Step 4, oh snap I have two kids now&lt;/h3&gt;
+&lt;h3&gt;Step 5, get lazy (burnout)&lt;/h3&gt;
+&lt;h3&gt;Step 5, push through&lt;/h3&gt;</content:encoded></item></channel></rss>
